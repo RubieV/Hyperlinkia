@@ -274,11 +274,11 @@ header .scroll-down .btn:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  header .brand-name {
+  header .page-name {
     font-size: 80px;
     line-height: 80px;
   }
-  header .brand-name-subtext {
+  header .page-subtext {
     font-size: 30px;
     line-height: 30px;
   }
