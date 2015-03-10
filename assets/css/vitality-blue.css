@@ -1006,6 +1006,9 @@ footer.footer .copyright p.small {
 .btn-full-width:focus {
   color: white;
 }
+.btn-margin {
+    margin-bottom: 10px;
+}
 body.modern {
   font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
