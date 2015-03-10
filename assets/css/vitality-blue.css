@@ -73,8 +73,8 @@ h6 {
 }
 hr {
   max-width: 100px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   height: 2px;
   margin: 15px auto;
 }
@@ -86,6 +86,9 @@ hr.right {
 }
 hr.colored {
   border-color: #0a8fd5;
+}
+hr.nomaxwidth {
+    max-width: none;
 }
 @media (min-width: 768px) {
   hr {
@@ -955,8 +958,8 @@ footer.footer .copyright p.small {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.btn-outline-light:hover,
-.btn-outline-light:focus {
+.btn-outline-light,
+.btn-outline-light{
   color: #0a8fd5;
   background: white;
   outline: none;
@@ -1008,6 +1011,9 @@ footer.footer .copyright p.small {
 }
 .btn-margin {
     margin-bottom: 10px;
+}
+.btn-fat {
+    border: 2px solid;
 }
 body.modern {
   font-family: "Cardo", "Helvetica Neue", Helvetica, Arial, sans-serif;
