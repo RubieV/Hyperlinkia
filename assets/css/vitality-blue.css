@@ -90,6 +90,9 @@ hr.colored {
 hr.nomaxwidth {
     max-width: none;
 }
+hr.nomargin {
+    margin: 0px;
+}
 @media (min-width: 768px) {
   hr {
     max-width: 200px;
