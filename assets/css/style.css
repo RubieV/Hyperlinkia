@@ -1,3 +1,49 @@
+#navbar .container {
+    padding: 15px;
+}
+
+@media (max-width: 992px) {
+    #navbar .container {
+        width: auto;
+    }
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-header {
+    margin: 0 !important;;
+}
+
 .navbar-header button {
     color: white;
+    margin: 0px;
+}
+
+.navbar-header img {
+    margin-top: 5px;
+}
+
+.submenu-content {
+    padding: 35px 18px;
+}
+
+#submenu {
+    text-align: center;
+}
+
+#submenu nav {
+    background-color: rgba(206, 216, 253, 1);
+    height: auto;
+}
+
+#submenu nav ul {
+    margin: 4px;
+    padding: 0;
+}
+
+#submenu nav li {
+    display: inline-block;
+    margin: 2px 15px;
 }
