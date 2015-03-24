@@ -32,6 +32,14 @@
     border-radius: 50px;
 }
 
+#index .summary .fa{
+    color: white;
+}
+
+#index .summary .fa:hover{
+    color: #0A8FD5;
+}
+
 #navbar .container {
     padding: 15px;
 }
