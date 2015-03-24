@@ -27,9 +27,13 @@
 }
 
 #index .summary {
-    background-color: rgba(45,45,45,0.85);
+    background-color: rgba(45,45,45,0.90);
     padding: 30px;
     border-radius: 50px;
+}
+
+#index .summary .summary-item p {
+    text-align: justify;
 }
 
 #index .summary .fa{
@@ -73,25 +77,6 @@
     margin-top: 5px;
 }
 
-.submenu-content {
-    padding: 35px 18px;
-}
-
-#submenu {
-    text-align: center;
-}
-
-#submenu nav {
-    background-color: rgba(206, 216, 253, 1);
-    height: auto;
-}
-
-#submenu nav ul {
-    margin: 4px;
-    padding: 0;
-}
-
-#submenu nav li {
-    display: inline-block;
-    margin: 2px 15px;
+.intro-content p {
+    font-size: 23px;
 }
