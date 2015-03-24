@@ -82,3 +82,26 @@
 .intro-content p {
     font-size: 23px;
 }
+
+.submenu-content {
+    padding: 35px 18px;
+}
+
+#submenu {
+    text-align: center;
+}
+
+#submenu nav {
+    background-color: rgba(206, 216, 253, 1);
+    height: auto;
+}
+
+#submenu nav ul {
+    margin: 4px;
+    padding: 0;
+}
+
+#submenu nav li {
+    display: inline-block;
+    margin: 2px 15px;
+}
