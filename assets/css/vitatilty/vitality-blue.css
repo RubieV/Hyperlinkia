@@ -29,11 +29,11 @@ section.bg-gray {
 }
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
 a {
-  color: #0a8fd5;
+  color: #59EBDE;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -136,12 +136,12 @@ hr.nomargin {
   border-color: rgba(255, 255, 255, 0);
 }
 .navbar-inverse {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: black;
 }
 .navbar-default,
 .navbar-inverse {
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
