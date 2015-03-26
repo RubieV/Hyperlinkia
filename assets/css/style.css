@@ -30,6 +30,7 @@
 }
 
 #index .summary .summary-item p {
+    padding: 20px;
     text-align: justify;
 }
 
@@ -88,6 +89,8 @@
 
 #submenu {
     text-align: center;
+    margin: 20px;
+    padding: 70px 0;
 }
 
 #submenu nav {
@@ -107,6 +110,7 @@
 
 #submenu .submenu-content p {
     text-align: justify;
+    margin: 20px;
 }
 
 @media (max-width: 1300px) {
