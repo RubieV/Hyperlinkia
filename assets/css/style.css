@@ -61,8 +61,17 @@
     }
 }
 
+#navigation {
+    margin-top: 10px;
+}
+
 .navbar {
     padding: 30px;
+}
+
+.navbar-nav {
+    margin-left: -10px;
+    margin-right: 0;
 }
 
 .navbar-header {
