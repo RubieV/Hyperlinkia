@@ -108,6 +108,14 @@
     margin: 2px 15px;
 }
 
+#submenu h1 {
+    margin-bottom: 40px;
+}
+
+#submenu nav {
+    margin-top: 30px;
+}
+
 #submenu .submenu-content p {
     text-align: justify;
     margin: 20px;
