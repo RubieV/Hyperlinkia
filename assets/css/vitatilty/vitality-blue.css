@@ -133,10 +133,10 @@ hr.nomargin {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #222222;
 }
 .navbar-default,
 .navbar-inverse {

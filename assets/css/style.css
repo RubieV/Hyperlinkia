@@ -21,10 +21,10 @@
 }
 
 #index .content {
-    color: #FFF;
+    color: #333;
     text-align: center;
     margin: 50px 0px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0.90);
     padding: 12px;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .navbar {
-    padding: 30px;
+    padding: 0;
 }
 
 .navbar-header {
