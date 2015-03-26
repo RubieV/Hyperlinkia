@@ -85,7 +85,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #0a8fd5;
+  border-color: rgba(255, 255, 255, 1.0);
 }
 hr.nomaxwidth {
     max-width: none;
