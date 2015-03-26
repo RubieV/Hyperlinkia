@@ -4,8 +4,6 @@
     height: 100%;
 }
 
-
-
 #index {
     height: 100%;
     width: 100%;
@@ -18,7 +16,6 @@
 #index .content {
     color: #FFF;
     text-align: center;
-    margin-top: 50px;
     background-color: rgba(255,255,255,0);
     padding: 12px;
 }
@@ -28,7 +25,12 @@
     border-radius: 50px;
 }
 
+#index .summary .summary-item {
+    padding-bottom: 60px;
+}
+
 #index .summary .summary-item p {
+    padding: 20px;
     text-align: justify;
 }
 
@@ -67,7 +69,7 @@
 }
 
 .navbar-header img {
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .brand-name .fa {
@@ -87,6 +89,8 @@
 
 #submenu {
     text-align: center;
+    margin: 20px;
+    padding: 70px 0;
 }
 
 #submenu nav {
@@ -106,6 +110,7 @@
 
 #submenu .submenu-content p {
     text-align: justify;
+    margin: 20px;
 }
 
 @media (max-width: 1300px) {
@@ -119,6 +124,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    #index .summary {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 390px) {
     #navbar .container {
         padding: 10px;
@@ -127,9 +138,13 @@
     #navbar {
         padding: 10px;
     }
+
+    #index .summary {
+        padding: 0px;
+    }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 350px) {
     #navbar .container {
         padding: 5px;
     }
