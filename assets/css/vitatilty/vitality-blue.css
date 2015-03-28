@@ -243,9 +243,9 @@ header .scroll-down {
   text-align: center;
 }
 header .scroll-down .btn {
-  height: 50px;
-  width: 50px;
-  border: 2px solid white;
+  height: 52px;
+  width: 52px;
+  border: 0px solid white;
   border-radius: 100%;
   line-height: 50px;
   padding: 0;

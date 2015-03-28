@@ -119,7 +119,7 @@
 }
 
 #submenu nav {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #submenu .submenu-content p {
@@ -166,4 +166,9 @@
     #navbar {
         padding: 0px;
     }
+}
+
+.long-introduction  p{
+	text-align: justify;
+	padding: 10px 0px 10px;
 }
