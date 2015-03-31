@@ -299,6 +299,11 @@
 .info {
     text-align: justify;
     padding: 10px;
+    display: inline-block;
+}
+
+.nofloat {
+   float: none;
 }
 
 .long-introduction  p{
