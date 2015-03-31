@@ -154,6 +154,10 @@
     text-align: center;
 }
 
+#course-overview a {
+    outline: none;
+}
+
 #course-overview .subject {
     width: 90%;
     height: 140px;
@@ -183,6 +187,7 @@
     text-transform: uppercase;
     padding: 10px;
     margin-top: 25px;
+    color: #333;
 }
 
 #course-overview .subject aside {
