@@ -4,6 +4,14 @@
     height: 100%;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 #index {
     height: 100%;
     width: 100%;
@@ -125,6 +133,62 @@
 #submenu .submenu-content p {
     text-align: justify;
     margin: 20px;
+}
+
+#course-overview {
+    text-align: center;
+}
+
+#course-overview .year {
+    text-align: center;
+    margin: 30px 0;
+    overflow: auto;
+}
+
+#course-overview .year h1 {
+    margin-bottom: 15px;
+}
+
+#course-overview .year .left, #course-overview .year .right {
+    width: 50%;
+    text-align: center;
+}
+
+#course-overview .subject {
+    width: 90%;
+    height: 140px;
+    margin: 10px 5%;
+
+    display: inline-block;
+
+    background-color: indianred;
+}
+
+#course-overview .subject p {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+#course-overview .elective {
+    background-color: limegreen;
+}
+
+#course-overview .groupproject {
+    background-color: dodgerblue;
+}
+
+#course-overview .hx2 {
+    height: 300px;
+}
+
+#course-overview .wx2 {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
 }
 
 @media (max-width: 1300px) {
