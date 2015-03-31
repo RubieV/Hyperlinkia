@@ -291,6 +291,16 @@
     }
 }
 
+.intro {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.info {
+    text-align: justify;
+    padding: 10px;
+}
+
 .long-introduction  p{
 	text-align: justify;
 	padding: 10px 0px 10px;
