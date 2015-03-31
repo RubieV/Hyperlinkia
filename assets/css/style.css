@@ -40,6 +40,13 @@
     font-size: 12px;
 }
 
+.arrow:after{
+	font-family: FontAwesome;
+	content: "\f105";
+	padding-left: 5px;
+	font-size: 24px;
+}
+
 .contact-details {
     padding: 30px;
 }
