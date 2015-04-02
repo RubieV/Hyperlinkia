@@ -203,15 +203,25 @@
     margin: 10px 5%;
 
     display: inline-block;
+}
 
-    background-color: indianred;
+#course-overview .data {
+	background-color: rgba(102, 139, 179, 1);
+}
+
+#course-overview .programming {
+	background-color: rgba(237, 125, 49, 1);
+}
+
+#course-overview .mathe {
+	background-color: rgba(254, 192, 0, 1);
 }
 
 #course-overview .subject:hover {
     width: 80%;
     height: 130px;
     margin: 15px 5%;
-    border-radius: 5px;
+    border-radius: 0px;
     transition: all 0.2s ease-in-out 0s;
 }
 
@@ -222,10 +232,10 @@
 
 #course-overview .subject > p {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 900;
+    font-weight: 300;
     text-transform: uppercase;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 15px;
     color: #333;
 }
 
@@ -235,7 +245,7 @@
     position: absolute;
     background-color: #F5F5F5;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 0px;
     border: solid #E5E5E5;
     margin-left: -33%;
     width: 100%;
@@ -253,11 +263,11 @@
 }
 
 #course-overview .elective {
-    background-color: limegreen;
+    background-color: rgba(112, 173, 71, 1);
 }
 
 #course-overview .groupproject {
-    background-color: dodgerblue;
+    background-color: rgba(141, 141, 141, 1);
 }
 
 #course-overview .hx2 {
