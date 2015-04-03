@@ -232,11 +232,11 @@
 
 #course-overview .subject > p {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     padding: 10px;
     margin-top: 15px;
-    color: #333;
+    color: #FFF;
 }
 
 #course-overview .subject aside {
